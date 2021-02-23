@@ -2118,6 +2118,10 @@ form#contactForm {
         position: relative;
         width: 33.33331%;
     }
+
+    .highlight-texts {
+        font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2270,8 +2274,12 @@ form#contactForm {
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
     .portfolio-items .portfolio-item {
         width: 50%;
+    }
+
+    .highlight-texts {
+        font-size: 24px;
     }
 }
